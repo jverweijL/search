@@ -1,0 +1,16 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.util.taglib"
+	compileOnly group: "javax.portlet", name: "portlet-api"
+	compileOnly group: "javax.servlet", name: "javax.servlet-api"
+	compileOnly group: "jstl", name: "jstl"
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+
+	// https://mvnrepository.com/artifact/com.liferay/com.liferay.portal.search.web
+	compile group: 'com.liferay', name: 'com.liferay.portal.search.web', version: '4.0.30'
+
+	// https://mvnrepository.com/artifact/com.liferay.portal/release.portal.api
+	compile group: 'com.liferay.portal', name: 'release.portal.api', version: '7.2.0'
+
+
+}

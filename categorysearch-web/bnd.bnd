@@ -1,0 +1,4 @@
+Bundle-Name: categorysearch-web
+Bundle-SymbolicName: com.liferay.demo.search
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.demo.search.constants

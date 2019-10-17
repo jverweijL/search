@@ -1,0 +1,11 @@
+task deployToLocalDocker(type: Copy) {
+    group = 'custom'
+
+    subprojects.each { dependsOn("${it.name}:jar") }
+    
+    from('categorysearch-web/build/libs') {
+        include '**/*.jar'
+    }
+    
+    into '/tmp/docker/deploy'
+}
